@@ -176,9 +176,20 @@ h6 {
 
 .about-span {
   display: block;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 16px;
+  color: #88868d;
+}
+
+.about-desc {
+  max-width: 500px;
   font-size: 16px;
   color: #47444E;
+  line-height: 22px;
+}
+
+.about-desc-span {
+  font-weight: 700;
 }
 
 .user-foto {
@@ -254,7 +265,7 @@ h4 {
 .services-card-desc {
   font-weight: 500;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 22px;
   color: #47444E;
   margin-bottom: 150px;
 }
@@ -322,19 +333,19 @@ height: 427px;
 ============*/
 
 .contact {
-  height: 700px;
+  height: 600px;
 /*  background: linear-gradient(180deg, rgba(187, 133, 255, 0.166) -8.54%, rgba(255, 244, 251, 0.2) 100%);
 filter: blur(150px);*/
 }
 
 .contact-title {
   font-weight: 500;
-  font-size: 36px;
-  line-height: 52px;
+  font-size: 26px;
+  line-height: 25px;
   color: #25202F;
   width: 512px;
   height: 156px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .form-wrap {
@@ -382,18 +393,13 @@ filter: blur(150px);*/
  text-align: center;
  padding-bottom: 50px;
 }
-.social-title {
-  margin: 0 auto;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 48px;
-  text-align: center;
-  color: #21232D;
-  margin-bottom: 30px;
+
+.social-link {
+  margin-right: 40px;
 }
 
-.social-link:first-child {
-  margin-right: 40px;
+.social-link:last-child {
+  margin-right: 0px;
 }
 
 .social-link img:hover {
